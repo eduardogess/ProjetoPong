@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    background-color: black;
+}
+
+#pong{
+    border: dotted white 2px;
+}
+.centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P';
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.cabecalho button{
+    background-color: white;
+    color: black;
+    font-family: 'Press Start 2P';
+    border-radius: 5px;
+}
+.pontuacao{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Press Start 2P';
+}
+#pontos{
+    margin-top: 15px;
+    color: white;
+}
